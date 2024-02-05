@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Aayusha Shrestha</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #e7e2db;
+        }
+        
+        #home {
+            width: 100%;
+            height: auto;
+        }
+
+        .container {
+            padding: 34px 100px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .container .logo {
+            height: 60px;
+            width: 150px;
+        }
+
+        nav ul li {
+            list-style: none;
+            display: inline-block;
+        }
+
+        nav ul li a {
+            color: #372C2E;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 0 40px 10px 40px;
+        }
+
+        nav ul li a:hover {
+            border-style: groove;
+            border-color: rgb(176, 43, 43);
+            border-width: 0 0 2px 0;
+        }
+
+        .container2 {
+            margin-top: 90px;
+            display: flex;
+        }
+
+        .container2 h1 {
+            font-size: 100px;
+            align-self: center;
+            width: fit-content;
+        }
+
+        .container2 img {
+            height: 500px;
+            width: 500px;
+            object-fit: contain;
+        }
+
+        .info {
+            margin-left: 120px;
+            padding-top: 60px;
+            flex: 65%;
+        }
+
+        .related_image {
+            flex: 40%;
+        }
+
+        .info h1 {
+            font-size: 80px;
+            color: #372C2E;
+        }
+
+        .info .course {
+            color: #eb9e3a;
+            font-size: 30px;
+            margin-top: 8px;
+        }
+
+        .info .college {
+            margin-top: 8px;
+        }
+
+        .info .college a {
+            text-decoration: none;
+            color: #eb9e3a;
+            font-size: 25px;
+        }
+
+        .info .college a:hover {
+            color: #744a34;
+        }
+
+        .info .aim {
+            color: rgb(190, 182, 182);
+            font-size: 30px;
+            margin-top: 10px;
+        }
+
+        #about {
+            padding: 0;
+        }
+
+        .aboutColumn1 img {
+            height: 680px;
+            width: 500px;
+            border-radius: 5px;
+            box-shadow: 3px 3px 0 0 rgb(219, 213, 213);
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .aboutColumn1 {
+            flex: 40%;
+        }
+
+        .aboutColumn2 {
+            flex: 45%;
+            padding-top: 170px;
+        }
+
+        .aboutColumn2 h1 {
+            font-size: 50px;
+            color: #372C2E;
+        }
+
+        .aboutColumn2 p {
+            font-size: 20px;
+            color: #744a34;
+            padding-top: 20px;
+            text-align: justify;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 50px 0;
+            background-color:#a28c70;
+        }
+
+        .media{
+            margin : 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="home">
+        <div class="container">
+            <nav>
+                <a href = "index.html">
+                    <img src="images/aayushaLogo.png" alt="logo" class="logo">
+                </a>
+                <ul>
+                    <li><a href=#home>Home</a></li>
+                    <li><a href=#about>About</a></li>
+                    <li><a href=#contact>Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container2">
+            <div class="info">
+
+                <h1>Aayusha Shrestha</h1>
+                <p class="course">BSc (Hons) Computing</p>
+                <p class="college"><a href="https://islington.edu.np/" target="_blank">Islington College</a></p>
+                <p class="aim">to exhibit excellence in problem-solving techniques by means of web technology</p>
+            </div>
+            <div class="related_image">
+                <img src="images/aayushaHome.png" alt="myPhoto">
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutColumn1">
+                    <img src="images/aayushaAbout.jpg" alt="myPhoto" class="aboutImage">
+                </div>
+                <div class="aboutColumn2">
+                    <h1>About Me</h1>
+                    <p>Challenges effortlessly stimulate me. Especially the ones that equip you with transferable skills
+                        to other lines of work. Growing up, I always
+                        enjoyed Maths and how it could be used to address problems in the real world. I had no idea what
+                        major would I choose until one day I
+                        discovered that there was another field similar to my interest. I'm currently a first-year
+                        student at Islington College, Kathmandu pursuing
+                        my degree in BSc (Hons) Computing.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class ="footer">
+            <div class="media">
+                <a href="https://www.facebook.com/mina.shrestha.75436" target="_blank"><img
+                    src="images/fb.png" height="30px" width="30px"></a>
+                <a href="https://www.linkedin.com/in/aayusha-shrestha-b61308256/" target="_blank"><img
+                        src="images/linkedin.png" height="30px" width="30px"></a>
+                <a href="https://github.com/aayusha-shrestha" target="_blank"><img
+                        src="images/github.png" height="30px" width="30px"></a>
+            </div>
+            <p> Copyright &copy; 2023 All rights reserved.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
